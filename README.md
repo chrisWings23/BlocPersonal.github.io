@@ -30,3 +30,12 @@ Este es un proyecto web desarrollado en HTML, CSS y JavaScript puro, que simula 
 
 ## 📁 Estructura del Proyecto
 
+
+## 🧩 Personalización
+
+- **Contraseña de acceso:** Puedes cambiarla en el archivo HTML, dentro del bloque:
+  ```javascript
+  if (passVal !== 'Claro1') {
+    loginError.textContent = 'Contraseña incorrecta.';
+    return;
+  }
